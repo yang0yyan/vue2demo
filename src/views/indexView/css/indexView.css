@@ -1,0 +1,17 @@
+#indexView {
+  width: 100%;
+  height: 100%;
+  background-image: url(~@/assets/logo.png);
+}
+#indexView .ban2 {
+  position: absolute;
+  top: 107px;
+  right: 139px;
+  z-index: 17;
+  border: 1px solid transparent;
+  -webkit-clip-path: url(#banGlass);
+  clip-path: url(#banGlass);
+  backdrop-filter: saturate(180%) blur(2px);
+  background: linear-gradient(45deg, rgba(64, 140, 253, 0.12), rgba(146, 202, 255, 0.12));
+  animation: banImgAnim 2.5s infinite alternate linear;
+}

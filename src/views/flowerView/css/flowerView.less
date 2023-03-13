@@ -1,0 +1,85 @@
+#flowerView {
+    width: 100%;
+    height: 100%;
+    // background-image: url(~../img/lock_screen_2__fss1je1zozau_large.jpg);
+
+    .actionBar {
+        height: 60px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        position: relative;
+    }
+
+    .island,.island2 {
+        // width: 108px;
+        // height: 32px;
+        background-color: black;
+        border-radius: 18px;
+        margin-top: 28px;
+        display: inline-block;
+        align-self: center;
+        position: relative;
+
+        
+
+        // width: 308px !important;
+        // height: 100px !important;
+    }
+    .island2{
+        align-self: unset;
+    }
+
+    .islandPoint{
+        background-color: black;
+        height: 32px;
+        width: 40px;
+        border-radius: 16px;
+        
+        position: absolute;
+        left: calc(50% + 62px);
+        bottom: 0px;
+    }
+
+    .longer {
+        // animation: longer 800ms ease-in-out forwards;
+        animation-name: longer;
+        animation-duration: 800ms;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    .Wide {
+        animation-name: Wide;
+        animation-duration: 800ms;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes longer {
+        0% {}
+
+        80% {
+            width: 212px;
+        }
+
+        100% {
+            width: 208px;
+        }
+    }
+
+    @keyframes Wide {
+        0% {
+            height: 32px;
+        }
+
+        50% {
+            height: 35px;
+        }
+
+        100% {
+            height: 32px;
+        }
+    }
+}

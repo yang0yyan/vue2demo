@@ -1,0 +1,15 @@
+#chatGPTView {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#chatGPTView .modelView {
+  width: 500px;
+  overflow-x: auto;
+}
+#chatGPTView .modelView .modelItem {
+  border: 1px solid #FF0000;
+  border-radius: 4px;
+  height: 80px;
+  margin-bottom: 20px;
+}

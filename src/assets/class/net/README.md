@@ -1,0 +1,3 @@
+OkHttpHolder 修改拦截器中的内容，做定制化操作
+
+BaseObserver 修改网络状态判定
