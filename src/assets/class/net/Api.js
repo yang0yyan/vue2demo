@@ -15,7 +15,7 @@ export class Api {
    * prompt
    * suffix
    * max_tokens
-   * temperature
+   * temperature  0~1  每次提交相同的提示会导致不同的completions
    * top_p
    * n
    * stream
